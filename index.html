@@ -9,7 +9,11 @@
       box-sizing: border-box;
     }
 
-    body{
+    html {
+      scroll-padding-top: 80px; 
+    }
+
+    body {
       font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
       background-color: rgb(40, 107, 109);
       font-size: 20px;
@@ -32,18 +36,19 @@
       margin-top: 0.25rem;
       text-shadow: 2px 2px 4px #238184;
     }
+
     p {
-        text-shadow: 1px 1px 2px #238184;
+      text-shadow: 1px 1px 2px #238184;
     }
 
-    img{
+    img {
       width: 20%;
       border-radius: 29px;
       border: solid #238184 0.1rem;
       margin-top: 0.25rem;
     }
 
-    a{
+    a {
       text-decoration: none;
       color: #134648; 
     }
@@ -77,11 +82,7 @@
       margin: 5rem;
     }
 
-    #about,
-    #LearningJourney,
-    #Box1,
-    #Box2,
-    #Box3 {
+    section {
       margin-bottom: 2rem;
       padding: 1rem;
       border: solid 2px #238184;
@@ -102,45 +103,50 @@
       margin-top: 2rem;
       font-size: 1rem;
     }
-
   </style>
 </head>
 <body>
   <div class="navbar">
     <a href="#home">Home</a>
     <a href="#about">About Me</a>
+    <a href="#LearningJourney">Learning</a>
+    <a href="#projects">Projects</a>
   </div>
 
   <main>
     <h1 id="home"> Angel's Personal Portfolio </h1>
 
-    <div id="about">
+    <section id="about">
       <h2> About me </h2>
       <p> Hi, my name is Angel Ho, and this is my personal portfolio! I am currently a junior student going to Mt. Eden Highschool bound to graduate the year 2026, and I've recently entered the programming world through my APCSP class. This portfolio holds everything that I've made and learned from 2024-2025. It's been a rough and definitely confusing year, but please feel free to learn more about me through my website!</p>
-    </div>
+    </section>
 
-    <div id="LearningJourney">
+    <section id="LearningJourney">
       <h2> Learning Journey </h2>
       <p> Through programming, I've learned beginner level coding within C++, HTML, CSS, and JS, and I've increased my problem solving skills altogether. I've learned how to implement code in various ways, like loops, arrays, etc. Preparing for the AP exam, I learned about the internet, how data is managed, and technology's impact on our world. I wouldn't have the knowledge today if it weren't for my teacher Mr. Alvarado — so when you read this, thanks for teaching me man!! </p>
-    </div>
+    </section>
 
-    <div id="Box1">
-      <h2> Project 1: C++ Slots and Coinflip </h2>
-      <p> Little casino gambling game in C++, has slots and coin flips. Test your luck here! </p>
-      <p> <a href="https://www.coolmathgames.com/"> Slots and Coinflip </a> </p>
-    </div>
+    <section id="projects">
+      <h2> Projects </h2>
 
-    <div id="Box2">
-      <h2> Project 2: Hangman </h2>
-      <p> Simple basic hangman game, with categories: videogames, stores, and candy. </p>
-      <p> <a href="hangman.html"> Hang man</a> </p>
-    </div>
+      <div>
+        <h3> Project 1: C++ Slots and Coinflip </h3>
+        <p> Little casino gambling game in C++, has slots and coin flips. Test your luck here! </p>
+        <p> <a href="https://www.coolmathgames.com/"> Slots and Coinflip </a> </p>
+      </div>
 
-    <div id="Box3">
-      <h2> Project 3: Squid game Red Light Green Light </h2>
-      <p> Standard red light green light, move when its green, dont move when its red. </p>
-      <p> <a href="squidgame.html"> Squid game </a> </p>
-    </div>
+      <div>
+        <h3> Project 2: Hangman </h3>
+        <p> Simple basic hangman game, with categories: videogames, stores, and candy. </p>
+        <p> <a href="hangman.html"> Hangman</a> </p>
+      </div>
+
+      <div>
+        <h3> Project 3: Squid Game - Red Light Green Light </h3>
+        <p> Standard red light green light — move when it's green, don't move when it's red. </p>
+        <p> <a href="squidgame.html"> Squid Game </a> </p>
+      </div>
+    </section>
     
   </main>
 
