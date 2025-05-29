@@ -1,0 +1,40 @@
+<!-- DOMINIK AND ANGEL -->
+<!-- https://www.youtube.com/watch?v=dRzhwwXy-Sk -->
+<!-- ADDED TOTAL WINS IN TOP RIGHT CORNER OF WIN/LOSS SCREEN, CHANGED THE HANGMANS HEAD TO DOMINIKS FACE, CHANGED UP THE WORDS, CHANGED UP APPEARANCE ONLY A LITTLE, MADE IT SO SPACES WORK IN WORDS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="name-section">
+    <h1>Hangman Project</h1>
+    </div>
+    <!-- container for the main game -->
+    <div class="container">
+      <!-- options container for categories -->
+      <div id="options-container"></div>
+      <!-- boxes for guessed letters --> 
+      <div id="letter-container" class="letter-container hide"></div>
+      <!-- where words are displayed -->
+      <div id="user-input-section"></div>
+      
+      <!-- canvas where hangman is drawn -->
+      <canvas id="canvas"></canvas>
+      <!-- basically game results win/lose -->
+      
+      <div id="new-game-container" class="new-game-popup hide">
+        <div id="result-text"></div>
+        <div id="win-counter">Total Wins: 0</div>
+        <button id="new-game-button">New Game</button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
