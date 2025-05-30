@@ -11,7 +11,7 @@ This portfolio is the final project for my web development course. It showcases 
 ## What's Included in My Portfolio
 
 - A responsive, mobile-friendly layout
-- Personal information for visitors
+- A section containing personal information
 - A homepage with navigation and project previews
 - A project section with links and descriptions
 - A contact section for visitors
